@@ -1,0 +1,28 @@
+body div {
+  border: 1px solid red;
+  padding: 10px;
+}
+body div h1 {
+  text-align: center;
+  color: green;
+  -webkit-text-decoration: 1px underline blue;
+          text-decoration: 1px underline blue;
+  text-underline-offset: 8px;
+}
+body div section {
+  display: flex;
+}
+body div section article {
+  border: 1px solid green;
+}
+body div section article:nth-child(odd) {
+  color: blue;
+}
+body div section article:nth-child(even) {
+  color: red;
+}
+body div section article p {
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}/*# sourceMappingURL=style.css.map */
