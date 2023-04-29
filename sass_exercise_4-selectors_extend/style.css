@@ -1,0 +1,48 @@
+body div {
+  border: 0.0625rem solid red;
+  padding: 0.9375rem;
+  text-align: center;
+}
+body div h1, body div h2 {
+  text-align: center;
+  color: green;
+  -webkit-text-decoration: 0.0625rem underline blue;
+          text-decoration: 0.0625rem underline blue;
+  text-underline-offset: 0.5rem;
+}
+body div h2 {
+  text-decoration: unset;
+  padding: 1rem;
+  border: 0.0625rem solid red;
+  margin: 0;
+  display: inline-block;
+}
+body div section {
+  padding: 0.625rem;
+  display: flex;
+}
+body div section article {
+  border: 0.0625rem solid green;
+}
+body div section article:nth-child(1), body div section article:nth-child(3) {
+  color: blue;
+  border-color: green;
+  font-size: 1rem;
+}
+body div section article:nth-child(2), body div section article:nth-child(4) {
+  color: red;
+  border-color: green;
+  font-size: 1rem;
+}
+body div section article p {
+  text-align: center;
+  padding: 0.625rem;
+}
+body div .footer-article {
+  width: 100%;
+}
+body div .footer-article:nth-child(1) {
+  color: green;
+  border-color: blue;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+@use "variables.scss";
+@use "function.scss" as f;
+@mixin article-card($color, $border-color, $font-size) {
+  color: $color;
+  border-color: $border-color;
+  font-size: $font-size;
+}
+body {
+  div {
+    border: f.rem(1px) solid variables.$color-primary;
+    padding: f.rem(15px);
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      color: variables.$color-tertiary;
+      text-decoration: f.rem(1px) underline blue;
+      text-underline-offset: f.rem(8px);
+    }
+    h2 {
+        @extend h1;
+        text-decoration: unset;
+        padding: f.rem(16px);
+        border: f.rem(1px) solid variables.$color-primary;
+        margin: 0;
+        display: inline-block;
+    }
+    section {
+      padding: f.rem(10px);
+      display: flex;
+      article {
+        border: f.rem(1px) solid variables.$color-tertiary;
+        &:nth-child(1),
+        &:nth-child(3) {
+          @include article-card(
+            variables.$color-secondary,
+            variables.$color-tertiary,
+            variables.$default-font-size
+          );
+        }
+        &:nth-child(2),
+        &:nth-child(4) {
+          @include article-card(
+            variables.$color-primary,
+            variables.$color-tertiary,
+            variables.$default-font-size
+          );
+        }
+        p {
+          text-align: center;
+          padding: f.rem(10px);
+        }
+      }
+    }
+    .footer-article {
+      width: 100%;
+      &:nth-child(1) {
+        @include article-card(
+          variables.$color-tertiary,
+          variables.$color-secondary,
+          variables.$footer-font-size
+        );
+      }
+    }
+  }
+}

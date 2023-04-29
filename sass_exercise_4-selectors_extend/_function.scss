@@ -1,0 +1,5 @@
+
+@function rem($number) {
+    $result: calc($number / 16px * 1rem);
+    @return $result;
+}
