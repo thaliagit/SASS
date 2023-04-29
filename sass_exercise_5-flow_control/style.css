@@ -1,0 +1,193 @@
+body div {
+  border: 0.0625rem solid red;
+  padding: 0.9375rem;
+  text-align: center;
+}
+body div h1, body div h2 {
+  text-align: center;
+  color: green;
+  -webkit-text-decoration: 0.0625rem underline blue;
+          text-decoration: 0.0625rem underline blue;
+  text-underline-offset: 0.5rem;
+}
+body div h2 {
+  text-decoration: unset;
+  padding: 1rem;
+  border: 0.0625rem solid red;
+  margin: 0;
+  display: inline-block;
+}
+body div section {
+  padding: 0.625rem;
+  display: flex;
+}
+body div section article {
+  border: 0.0625rem solid green;
+}
+body div section article:nth-child(1), body div section article:nth-child(3) {
+  color: blue;
+  border-color: green;
+  font-size: 1rem;
+}
+body div section article:nth-child(2), body div section article:nth-child(4) {
+  color: red;
+  border-color: green;
+  font-size: 1rem;
+}
+body div section article p {
+  text-align: center;
+  padding: 0.625rem;
+}
+body div .numbers-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body div .numbers-section .fs-1rem {
+  font-size: 1rem;
+}
+body div .numbers-section .fs-2rem {
+  font-size: 2rem;
+}
+body div .numbers-section .fs-3rem {
+  font-size: 3rem;
+}
+body div .numbers-section .fs-1rem,
+body div .numbers-section .fs-2rem,
+body div .numbers-section .fs-3rem {
+  display: flex;
+  align-items: flex-start;
+  border: 0.0625rem solid red;
+  width: 45px;
+  height: 45px;
+  padding: 0px;
+}
+body div .numbers-section .fs-1rem:nth-child(1),
+body div .numbers-section .fs-2rem:nth-child(1),
+body div .numbers-section .fs-3rem:nth-child(1) {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+body div .numbers-section .fs-1rem:nth-child(2),
+body div .numbers-section .fs-2rem:nth-child(2),
+body div .numbers-section .fs-3rem:nth-child(2) {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+}
+body div .numbers-section .fs-1rem:nth-child(3),
+body div .numbers-section .fs-2rem:nth-child(3),
+body div .numbers-section .fs-3rem:nth-child(3) {
+  background-color: #d9d9d9;
+  color: #262626;
+}
+body div .numbers-section .fs-1rem:nth-child(4),
+body div .numbers-section .fs-2rem:nth-child(4),
+body div .numbers-section .fs-3rem:nth-child(4) {
+  background-color: #cccccc;
+  color: #333333;
+}
+body div .numbers-section .fs-1rem:nth-child(5),
+body div .numbers-section .fs-2rem:nth-child(5),
+body div .numbers-section .fs-3rem:nth-child(5) {
+  background-color: #bfbfbf;
+  color: #404040;
+}
+body div .numbers-section .fs-1rem:nth-child(6),
+body div .numbers-section .fs-2rem:nth-child(6),
+body div .numbers-section .fs-3rem:nth-child(6) {
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+}
+body div .numbers-section .fs-1rem:nth-child(7),
+body div .numbers-section .fs-2rem:nth-child(7),
+body div .numbers-section .fs-3rem:nth-child(7) {
+  background-color: #a6a6a6;
+  color: #595959;
+}
+body div .numbers-section .fs-1rem:nth-child(8),
+body div .numbers-section .fs-2rem:nth-child(8),
+body div .numbers-section .fs-3rem:nth-child(8) {
+  background-color: #999999;
+  color: #666666;
+}
+body div .numbers-section .fs-1rem:nth-child(9),
+body div .numbers-section .fs-2rem:nth-child(9),
+body div .numbers-section .fs-3rem:nth-child(9) {
+  background-color: #8c8c8c;
+  color: #737373;
+}
+body div .numbers-section .fs-1rem:nth-child(10),
+body div .numbers-section .fs-2rem:nth-child(10),
+body div .numbers-section .fs-3rem:nth-child(10) {
+  background-color: gray;
+  color: gray;
+  background-color: blue;
+  color: red;
+}
+body div .numbers-section .fs-1rem:nth-child(11),
+body div .numbers-section .fs-2rem:nth-child(11),
+body div .numbers-section .fs-3rem:nth-child(11) {
+  background-color: #737373;
+  color: #8c8c8c;
+}
+body div .numbers-section .fs-1rem:nth-child(12),
+body div .numbers-section .fs-2rem:nth-child(12),
+body div .numbers-section .fs-3rem:nth-child(12) {
+  background-color: #666666;
+  color: #999999;
+}
+body div .numbers-section .fs-1rem:nth-child(13),
+body div .numbers-section .fs-2rem:nth-child(13),
+body div .numbers-section .fs-3rem:nth-child(13) {
+  background-color: #595959;
+  color: #a6a6a6;
+}
+body div .numbers-section .fs-1rem:nth-child(14),
+body div .numbers-section .fs-2rem:nth-child(14),
+body div .numbers-section .fs-3rem:nth-child(14) {
+  background-color: #4d4d4d;
+  color: #b3b3b3;
+}
+body div .numbers-section .fs-1rem:nth-child(15),
+body div .numbers-section .fs-2rem:nth-child(15),
+body div .numbers-section .fs-3rem:nth-child(15) {
+  background-color: #404040;
+  color: #bfbfbf;
+}
+body div .numbers-section .fs-1rem:nth-child(16),
+body div .numbers-section .fs-2rem:nth-child(16),
+body div .numbers-section .fs-3rem:nth-child(16) {
+  background-color: #333333;
+  color: #cccccc;
+}
+body div .numbers-section .fs-1rem:nth-child(17),
+body div .numbers-section .fs-2rem:nth-child(17),
+body div .numbers-section .fs-3rem:nth-child(17) {
+  background-color: #262626;
+  color: #d9d9d9;
+}
+body div .numbers-section .fs-1rem:nth-child(18),
+body div .numbers-section .fs-2rem:nth-child(18),
+body div .numbers-section .fs-3rem:nth-child(18) {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+body div .numbers-section .fs-1rem:nth-child(19),
+body div .numbers-section .fs-2rem:nth-child(19),
+body div .numbers-section .fs-3rem:nth-child(19) {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+body div .numbers-section div {
+  border: 0.0625rem solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+}
+body div .footer-article {
+  width: 100%;
+}
+body div .footer-article:nth-child(1) {
+  color: green;
+  border-color: blue;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
